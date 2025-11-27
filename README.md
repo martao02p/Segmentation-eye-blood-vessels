@@ -1,10 +1,10 @@
 # Detection of retinal fundus vessels
 
-## 📜 Project description
+## Project description
 
 This project is about the automatic detection of blood vessels in retinal fundus images. The main objective is to develop an application that analyses a given input image and classifies pixels as blood vessels or background. The project uses both classical image processing techniques and advanced methods based on deep neural networks (UNet) to segment blood vessels.
 
-## 🚀 Features
+## Features
 
 - **Image pre-processing**:
 
@@ -27,7 +27,7 @@ This project is about the automatic detection of blood vessels in retinal fundus
   - **Model training** - teaching the segmentation model on retinal fundus images to accurately detect blood vessels.
   - **Statistical analysis** - evaluating model performance through confusion matrices and calculating measures such as accuracy, sensitivity and specificity.
 
-## 🗂 Project structure
+## Project structure
 
 - `images/`: folder containing retinal images.
 - `labels/`: folder containing the expert masks for the images.
@@ -35,10 +35,11 @@ This project is about the automatic detection of blood vessels in retinal fundus
 - `unet.ipynb`: notebook containing UNet implementation, training and testing on retinal images.
 - `README.md`.
 
-## 🖼 Data
+## Data
 
 The project uses images from the [STARE](https://cecas.clemson.edu/~ahoover/stare/probing/index.html) database, which contains images used for blood vessel analysis.
 
-## 🎨 Visualisation of results
+## Visualisation of results
 
 The results of the algorithm are visualised through binary masks, where pixels belonging to blood vessels are highlighted. In addition, the results are compared with expert masks (ground truth), and the performance of the algorithm is evaluated based on selected metrics.
+
